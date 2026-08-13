@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pydedup"
+version = "0.1.0"
+requires-python = ">=3.11"
+description = "Find duplicate Python source blocks across files."
+readme = "README.md"
+license = { text = "MIT" }
+
+[project.scripts]
+pydedup = "pydedup.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["pydedup*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
