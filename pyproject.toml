@@ -10,6 +10,9 @@ description = "Find duplicate Python source blocks across files."
 readme = "README.md"
 license = { text = "MIT" }
 
+[project.urls]
+Repository = "https://github.com/felixhartmannnn/pydedup"
+
 [project.scripts]
 pydedup = "pydedup.cli:main"
 

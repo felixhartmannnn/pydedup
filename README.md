@@ -48,3 +48,5 @@ pydedup/
 ## Tags / keywords
 
 python, duplicate-code, developer-tools, static-analysis
+
+Source: https://github.com/felixhartmannnn/pydedup
