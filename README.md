@@ -36,17 +36,23 @@ python -m pydedup.cli . --json /tmp/pydedup.json
 ## Project structure
 
 ```
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+.github/
+  workflows/
+    ci.yml
 pydedup/
-  pydedup/
-    __init__.py
-    scan.py
-  tests/
-    test_pydedup.py
-  pyproject.toml
+  __init__.py
+  cli.py
+  scan.py
+tests/
+  test_pydedup.py
 ```
 
 ## Tags / keywords
 
-python, duplicate-code, developer-tools, static-analysis
+duplicate-detection, python, static-analysis, code-quality, developer-tools, duplicate-code
 
 Source: https://github.com/felixhartmannnn/pydedup
